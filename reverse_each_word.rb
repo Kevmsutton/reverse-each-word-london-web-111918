@@ -4,7 +4,7 @@ def reverse_each_word(string)
 	newString.each do |word|
   word.reverse
   newString.join("")
-  puts newString
+  return newString
 end
 end
 
