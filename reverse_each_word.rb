@@ -3,9 +3,8 @@ def reverse_each_word(string)
   newString = string.split(" ")
   newString.each do |word|
   array.push (word.reverse)
-  array.join(",")
 end
-return array
+return array.join(",")
 end
 
 reverse_each_word("Hello there, and how are you?")
