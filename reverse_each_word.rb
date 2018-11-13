@@ -1,10 +1,11 @@
 def reverse_each_word(string)
 	extra_string = ""
-	newString = string.split(" ")
+	newString = string.split("")
 	newString.each do |word|
-  extra_string.push (word.reverse)
+  word.reverse
+  newString.join("")
+  puts newString
 end
-return extra_string
 end
 
 reverse_each_word("Hello, how are you")
