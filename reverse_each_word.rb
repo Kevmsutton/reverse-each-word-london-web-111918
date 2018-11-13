@@ -3,5 +3,4 @@ def reverse_each_word(string)
 	newString.each do |word|
   return word.reverse
 end
-return word.reverse
 end
